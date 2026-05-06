@@ -69,7 +69,7 @@ jobs:
         run: npm ci
 
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium -w apps/web
+        run: npm exec -w apps/web -- playwright install --with-deps chromium
 
       - name: Start API server
         run: npm run dev:api &
