@@ -117,7 +117,7 @@ test.describe('Checkout Happy Path', () => {
     await page.waitForTimeout(500);
 
     // Click "Đặt Hàng" button
-    await page.locator('form button[type="submit"]').click();
+    await page.getByRole('button', { name: /đặt hàng|gửi yêu cầu/i }).click();
 
     // Expect alert or redirect
     page.on('dialog', async dialog => {
