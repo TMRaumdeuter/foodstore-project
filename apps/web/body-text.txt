@@ -1,0 +1,56 @@
+🍔
+FoodStore
+Thực đơn
+Đơn hàng
+🛒
+1
+T
+Test User
+Thanh toán
+1. Thông tin giao hàng
+Họ tên
+Số điện thoại (*)
+Địa chỉ giao hàng (*)
+Ghi chú đơn hàng (Tùy chọn)
+2. Phương thức thanh toán
+💵 Tiền mặt khi nhận hàng (COD)
+🏦 Chuyển khoản QR (Kiểm duyệt thủ công)
+3. Ưu đãi & Giảm giá
+Mã giảm giá
+
+Chưa có mã giảm giá nào phù hợp.
+
+Điểm thưởng FoodStore
+
+Bạn đang có 10 điểm.
+(1 điểm = 1.000đ giảm giá)
+
+Dùng 0 điểm để giảm 0đ
+Tóm tắt (1 món)
+1x Pizza Hải Sản
+Tạm tính
+150.000đ
+Phí giao hàng
+Miễn phí
+Thành tiền
+150.000đ
+Đặt hàng ngay
+
+Bằng việc đặt hàng, bạn đồng ý với Điều khoản và Chính sách của FoodStore.
+
+🍔 FoodStore
+
+Đặt đồ ăn & đồ uống online. Giao hàng tận nơi, nhanh chóng.
+
+LIÊN KẾT
+Thực đơn
+Đăng ký
+LIÊN HỆ
+
+📞 0901 234 567
+
+📧 contact@foodstore.vn
+
+📍 123 Nguyễn Huệ, Q.1, TP.HCM
+
+© 2026 FoodStore. Đồ án CNPM.

@@ -1,0 +1,656 @@
+{
+  "categories": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229ad",
+      "name": "🔥 Gà Rán Giòn",
+      "slug": "ga-ran",
+      "description": "Gà rán truyền thống và hiện đại",
+      "order": 1,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.758Z",
+      "updatedAt": "2026-05-03T12:47:34.665Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229ae",
+      "name": "🍔 Burger & Sandwiches",
+      "slug": "burger",
+      "description": "Burger kẹp thịt bò, gà, cá",
+      "order": 2,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.758Z",
+      "updatedAt": "2026-05-03T07:05:37.758Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229af",
+      "name": "🍚 Cơm & Mì",
+      "slug": "com-mi",
+      "description": "Các món ăn no bụng",
+      "order": 3,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.759Z",
+      "updatedAt": "2026-05-03T07:05:37.759Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b0",
+      "name": "🍕 Pizza Ý",
+      "slug": "pizza",
+      "description": "Pizza nướng củi giòn tan",
+      "order": 4,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.759Z",
+      "updatedAt": "2026-05-03T07:05:37.759Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b1",
+      "name": "🥤 Đồ Uống",
+      "slug": "do-uong",
+      "description": "Nước ngọt, trà trái cây",
+      "order": 5,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.759Z",
+      "updatedAt": "2026-05-03T07:05:37.759Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b2",
+      "name": "🍦 Tráng Miệng",
+      "slug": "trang-mieng",
+      "description": "Kem, bánh ngọt",
+      "order": 6,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.759Z",
+      "updatedAt": "2026-05-03T07:05:37.759Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b3",
+      "name": "🍱 Combo Tiết Kiệm",
+      "slug": "combo",
+      "description": "Dành cho nhóm bạn và gia đình",
+      "order": 7,
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.759Z",
+      "updatedAt": "2026-05-03T07:05:37.759Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229b4",
+      "categoryId": "69f6f3c1e4d6c4be735229ad",
+      "name": "Gà Rán Truyền Thống",
+      "slug": "ga-ran-truyen-thong",
+      "description": "Gà rán giòn rụm với công thức 11 loại thảo mộc bí truyền.",
+      "basePrice": 39000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/2e7ed3441a76f6e52002f23b320d3215.png"
+      ],
+      "options": [
+        {
+          "name": "Khẩu phần",
+          "choices": [
+            {
+              "label": "1 Miếng",
+              "extraPrice": 0
+            },
+            {
+              "label": "2 Miếng",
+              "extraPrice": 35000
+            },
+            {
+              "label": "3 Miếng",
+              "extraPrice": 68000
+            }
+          ]
+        },
+        {
+          "name": "Loại gà",
+          "choices": [
+            {
+              "label": "Ức gà",
+              "extraPrice": 0
+            },
+            {
+              "label": "Đùi gà",
+              "extraPrice": 5000
+            },
+            {
+              "label": "Cánh gà",
+              "extraPrice": 2000
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.8,
+      "reviewCount": 156,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b5",
+      "categoryId": "69f6f3c1e4d6c4be735229ad",
+      "name": "Gà Rán Sốt Cay Hàn Quốc",
+      "slug": "ga-ran-sot-cay",
+      "description": "Gà rán phủ lớp sốt cay ngọt chuẩn vị Seoul.",
+      "basePrice": 45000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/8890989d38c641f6498a96f108d447d2.png"
+      ],
+      "options": [
+        {
+          "name": "Cấp độ cay",
+          "choices": [
+            {
+              "label": "Vừa",
+              "extraPrice": 0
+            },
+            {
+              "label": "Cay",
+              "extraPrice": 0
+            },
+            {
+              "label": "Siêu cay",
+              "extraPrice": 5000
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.6,
+      "reviewCount": 89,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b6",
+      "categoryId": "69f6f3c1e4d6c4be735229ae",
+      "name": "Burger Bò Phô Mai Đặc Biệt",
+      "slug": "burger-bo-pho-mai",
+      "description": "Thịt bò Úc nướng, phô mai Cheddar tan chảy, xà lách và sốt mayo.",
+      "basePrice": 59000,
+      "images": [
+        "https://mcdonalds.vn/uploads/2018/food/burgers/cheeseburger.png"
+      ],
+      "options": [
+        {
+          "name": "Thêm topping",
+          "choices": [
+            {
+              "label": "Thêm phô mai",
+              "extraPrice": 10000
+            },
+            {
+              "label": "Thêm thịt bò",
+              "extraPrice": 25000
+            },
+            {
+              "label": "Thêm trứng",
+              "extraPrice": 8000
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.9,
+      "reviewCount": 230,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b7",
+      "categoryId": "69f6f3c1e4d6c4be735229ae",
+      "name": "Burger Gà Giòn Zinger",
+      "slug": "burger-ga-zinger",
+      "description": "Phi lê gà rán giòn cay kẹp trong bánh mì vừng.",
+      "basePrice": 55000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/092e03224b1a4574945d8b7a421b3215.png"
+      ],
+      "options": [],
+      "isAvailable": true,
+      "averageRating": 4.5,
+      "reviewCount": 112,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b8",
+      "categoryId": "69f6f3c1e4d6c4be735229af",
+      "name": "Cơm Gà Sốt Tiêu Đen",
+      "slug": "com-ga-tieu-den",
+      "description": "Cơm trắng dẻo thơm ăn kèm gà phi lê sốt tiêu đậm đà.",
+      "basePrice": 50000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/8890989d38c641f6498a96f108d447d2.png"
+      ],
+      "options": [
+        {
+          "name": "Canh đi kèm",
+          "choices": [
+            {
+              "label": "Canh rong biển",
+              "extraPrice": 0
+            },
+            {
+              "label": "Canh chua",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.4,
+      "reviewCount": 45,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229b9",
+      "categoryId": "69f6f3c1e4d6c4be735229b0",
+      "name": "Pizza Hải Sản Nhiệt Đới",
+      "slug": "pizza-hai-san",
+      "description": "Tôm, mực, thanh cua kết hợp cùng dứa và phô mai Mozzarella.",
+      "basePrice": 169000,
+      "images": [
+        "https://dominos.vn/uploads/products/pizza-hai-san-nhiet-doi-s.jpg"
+      ],
+      "options": [
+        {
+          "name": "Kích cỡ",
+          "choices": [
+            {
+              "label": "Size S (7 inch)",
+              "extraPrice": 0
+            },
+            {
+              "label": "Size M (9 inch)",
+              "extraPrice": 60000
+            },
+            {
+              "label": "Size L (12 inch)",
+              "extraPrice": 120000
+            }
+          ]
+        },
+        {
+          "name": "Đế bánh",
+          "choices": [
+            {
+              "label": "Đế dày",
+              "extraPrice": 0
+            },
+            {
+              "label": "Đế mỏng",
+              "extraPrice": 0
+            },
+            {
+              "label": "Đế viền phô mai",
+              "extraPrice": 45000
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.7,
+      "reviewCount": 67,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229ba",
+      "categoryId": "69f6f3c1e4d6c4be735229b1",
+      "name": "Trà Đào Cam Sả",
+      "slug": "tra-dao-cam-sa",
+      "description": "Trà đào thơm mát kết hợp cùng cam tươi và sả.",
+      "basePrice": 35000,
+      "images": [
+        "https://thecoffeehouse.com/uploads/product/1626351543_tra-dao-cam-sa.jpg"
+      ],
+      "options": [
+        {
+          "name": "Kích cỡ",
+          "choices": [
+            {
+              "label": "Vừa",
+              "extraPrice": 0
+            },
+            {
+              "label": "Lớn",
+              "extraPrice": 10000
+            }
+          ]
+        },
+        {
+          "name": "Đường/Đá",
+          "choices": [
+            {
+              "label": "Bình thường",
+              "extraPrice": 0
+            },
+            {
+              "label": "Ít đường/đá",
+              "extraPrice": 0
+            },
+            {
+              "label": "Không đường/đá",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.9,
+      "reviewCount": 310,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229bb",
+      "categoryId": "69f6f3c1e4d6c4be735229b1",
+      "name": "Pepsi Không Calo",
+      "slug": "pepsi-zero",
+      "description": "Nước giải khát có gas không đường.",
+      "basePrice": 18000,
+      "images": [
+        "https://suntorypepsico.vn/uploads/products/pepsi-zero-sugar.png"
+      ],
+      "options": [],
+      "isAvailable": true,
+      "averageRating": 4.3,
+      "reviewCount": 56,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229bc",
+      "categoryId": "69f6f3c1e4d6c4be735229b2",
+      "name": "Bánh Tart Trứng",
+      "slug": "banh-tart-trung",
+      "description": "Bánh tart nướng giòn với nhân kem trứng béo ngậy.",
+      "basePrice": 18000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/2e7ed3441a76f6e52002f23b320d3215.png"
+      ],
+      "options": [
+        {
+          "name": "Số lượng",
+          "choices": [
+            {
+              "label": "1 Cái",
+              "extraPrice": 0
+            },
+            {
+              "label": "Combo 4 Cái",
+              "extraPrice": 50000
+            }
+          ]
+        }
+      ],
+      "isAvailable": true,
+      "averageRating": 4.8,
+      "reviewCount": 145,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229bd",
+      "categoryId": "69f6f3c1e4d6c4be735229b3",
+      "name": "Combo Gia Đình Vui Vẻ",
+      "slug": "combo-gia-dinh",
+      "description": "4 Miếng Gà + 2 Burger + 1 Khoai tây chiên L + 3 Pepsi M.",
+      "basePrice": 299000,
+      "images": [
+        "https://kfcvietnam.com.vn/uploads/product/2e7ed3441a76f6e52002f23b320d3215.png"
+      ],
+      "options": [],
+      "isAvailable": true,
+      "averageRating": 5,
+      "reviewCount": 12,
+      "createdAt": "2026-05-03T07:05:37.798Z",
+      "updatedAt": "2026-05-03T07:05:37.798Z"
+    }
+  ],
+  "contacts": [],
+  "orders": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229c2",
+      "userId": "69f6f3c1e4d6c4be735229aa",
+      "orderCode": "ORD-937918",
+      "items": [
+        {
+          "productId": "69f6f3c1e4d6c4be735229b4",
+          "name": "Gà Rán Truyền Thống",
+          "quantity": 2,
+          "price": 39000,
+          "selectedOptions": [
+            {
+              "name": "Khẩu phần",
+              "choice": "1 Miếng",
+              "extraPrice": 0
+            }
+          ]
+        }
+      ],
+      "subtotal": 78000,
+      "totalPrice": 78000,
+      "status": "delivering",
+      "paymentMethod": "cod",
+      "deliveryAddress": "123 Nguyễn Huệ, Q.1, TP.HCM",
+      "phone": "0912345678",
+      "createdAt": "2026-05-03T06:05:37.918Z",
+      "updatedAt": "2026-05-03T12:47:18.462Z",
+      "discountAmount": 0,
+      "paymentStatus": "unpaid",
+      "pointsDiscount": 0,
+      "pointsUsed": 0
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229c3",
+      "userId": "69f6f3c1e4d6c4be735229ab",
+      "orderCode": "ORD-937919",
+      "items": [
+        {
+          "productId": "69f6f3c1e4d6c4be735229b6",
+          "name": "Burger Bò Phô Mai Đặc Biệt",
+          "quantity": 1,
+          "price": 59000,
+          "selectedOptions": [
+            {
+              "name": "Thêm topping",
+              "choice": "Thêm phô mai",
+              "extraPrice": 10000
+            }
+          ]
+        }
+      ],
+      "subtotal": 69000,
+      "totalPrice": 69000,
+      "status": "completed",
+      "paymentMethod": "qr_transfer",
+      "deliveryAddress": "456 Lê Lợi, Q.1, TP.HCM",
+      "phone": "0988776655",
+      "createdAt": "2026-05-03T05:05:37.918Z",
+      "updatedAt": "2026-05-03T12:47:11.730Z",
+      "discountAmount": 0,
+      "paymentStatus": "unpaid",
+      "pointsDiscount": 0,
+      "pointsUsed": 0
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229c4",
+      "userId": "69f6f3c1e4d6c4be735229ac",
+      "orderCode": "ORD-937920",
+      "items": [
+        {
+          "productId": "69f6f3c1e4d6c4be735229ba",
+          "name": "Trà Đào Cam Sả",
+          "quantity": 3,
+          "price": 35000,
+          "selectedOptions": [
+            {
+              "name": "Kích cỡ",
+              "choice": "Lớn",
+              "extraPrice": 10000
+            }
+          ]
+        }
+      ],
+      "subtotal": 135000,
+      "totalPrice": 135000,
+      "status": "completed",
+      "paymentMethod": "cod",
+      "deliveryAddress": "789 Cách Mạng Tháng 8, Q.10, TP.HCM",
+      "phone": "0977112233",
+      "createdAt": "2026-05-02T07:05:37.918Z",
+      "updatedAt": "2026-05-02T11:05:37.918Z"
+    }
+  ],
+  "paymentqrs": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229be",
+      "bankName": "Vietcombank",
+      "accountName": "PHAN THANH TUNG",
+      "accountNumber": "1023456789",
+      "qrImageUrl": "https://img.vietqr.io/image/vcb-1023456789-compact2.jpg",
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.836Z",
+      "updatedAt": "2026-05-03T07:05:37.836Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229bf",
+      "bankName": "Momo",
+      "accountName": "PHAN THANH TUNG",
+      "accountNumber": "0901234567",
+      "qrImageUrl": "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=momo://0901234567",
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.837Z",
+      "updatedAt": "2026-05-03T07:05:37.837Z"
+    }
+  ],
+  "invoices": [],
+  "vouchers": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229c0",
+      "code": "GIAM20",
+      "discountType": "percent",
+      "discountValue": 20,
+      "minOrderAmount": 100000,
+      "maxDiscount": 50000,
+      "usageLimit": 100,
+      "usedCount": 5,
+      "expiresAt": "2026-12-31T00:00:00.000Z",
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.869Z",
+      "updatedAt": "2026-05-03T07:05:37.869Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229c1",
+      "code": "FREESHIP",
+      "discountType": "fixed",
+      "discountValue": 15000,
+      "minOrderAmount": 50000,
+      "usageLimit": 500,
+      "usedCount": 20,
+      "expiresAt": "2026-06-30T00:00:00.000Z",
+      "isActive": true,
+      "createdAt": "2026-05-03T07:05:37.869Z",
+      "updatedAt": "2026-05-03T07:05:37.869Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229c5",
+      "productId": "69f6f3c1e4d6c4be735229b4",
+      "userId": "69f6f3c1e4d6c4be735229aa",
+      "rating": 5,
+      "comment": "Gà rất giòn và nóng hổi, giao hàng nhanh!",
+      "createdAt": "2026-05-03T07:05:37.968Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229c6",
+      "productId": "69f6f3c1e4d6c4be735229b6",
+      "userId": "69f6f3c1e4d6c4be735229ab",
+      "rating": 4,
+      "comment": "Bánh ngon nhưng hơi ít sốt.",
+      "createdAt": "2026-05-03T07:05:37.968Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229c7",
+      "productId": "69f6f3c1e4d6c4be735229ba",
+      "userId": "69f6f3c1e4d6c4be735229ac",
+      "rating": 5,
+      "comment": "Trà đào thơm nhất từng uống!",
+      "createdAt": "2026-05-03T07:05:37.968Z"
+    }
+  ],
+  "users": [
+    {
+      "_id": "69f6f3c1e4d6c4be735229a8",
+      "name": "Admin",
+      "email": "admin@foodstore.vn",
+      "password": "$2b$10$SXrMNmryhoYKevseRPcLeeVgv61ClTZ8PPV610aPGZz2i6Ulmo3Ma",
+      "phone": "0901234567",
+      "role": "admin",
+      "loyaltyPoints": 0,
+      "createdAt": "2026-05-03T07:05:37.692Z",
+      "updatedAt": "2026-05-03T07:05:37.692Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229a9",
+      "name": "Trần Nhân Viên",
+      "email": "staff@foodstore.vn",
+      "password": "$2b$10$SXrMNmryhoYKevseRPcLeeVgv61ClTZ8PPV610aPGZz2i6Ulmo3Ma",
+      "phone": "0907654321",
+      "role": "staff",
+      "loyaltyPoints": 0,
+      "createdAt": "2026-05-03T07:05:37.693Z",
+      "updatedAt": "2026-05-03T07:05:37.693Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229aa",
+      "name": "Nguyễn Văn Khách",
+      "email": "user@foodstore.vn",
+      "password": "$2b$10$SXrMNmryhoYKevseRPcLeeVgv61ClTZ8PPV610aPGZz2i6Ulmo3Ma",
+      "phone": "0912345678",
+      "role": "customer",
+      "loyaltyPoints": 500,
+      "address": "123 Nguyễn Huệ, Q.1, TP.HCM",
+      "createdAt": "2026-05-03T07:05:37.693Z",
+      "updatedAt": "2026-05-03T07:05:37.693Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229ab",
+      "name": "Lê Thị Bình",
+      "email": "binh.le@gmail.com",
+      "password": "$2b$10$SXrMNmryhoYKevseRPcLeeVgv61ClTZ8PPV610aPGZz2i6Ulmo3Ma",
+      "phone": "0988776655",
+      "role": "customer",
+      "loyaltyPoints": 126,
+      "address": "456 Lê Lợi, Q.1, TP.HCM",
+      "createdAt": "2026-05-03T07:05:37.693Z",
+      "updatedAt": "2026-05-03T12:47:11.635Z"
+    },
+    {
+      "_id": "69f6f3c1e4d6c4be735229ac",
+      "name": "Phạm Minh Tuấn",
+      "email": "tuan.pham@yahoo.com",
+      "password": "$2b$10$SXrMNmryhoYKevseRPcLeeVgv61ClTZ8PPV610aPGZz2i6Ulmo3Ma",
+      "phone": "0977112233",
+      "role": "customer",
+      "loyaltyPoints": 45,
+      "address": "789 Cách Mạng Tháng 8, Q.10, TP.HCM",
+      "createdAt": "2026-05-03T07:05:37.693Z",
+      "updatedAt": "2026-05-03T07:05:37.693Z"
+    },
+    {
+      "_id": "69f747fa081a2122e27798f5",
+      "name": "Nguyễn Văn B",
+      "email": "user1@gmail.com",
+      "phone": "0901363636",
+      "password": "$2b$10$ZmyYT5ZsiFHbCMM2qDdGVe1PxcFv6hUWrm1XTIGUj6ToxIYxX4oKe",
+      "role": "customer",
+      "loyaltyPoints": 0,
+      "createdAt": "2026-05-03T13:04:58.374Z",
+      "updatedAt": "2026-05-03T13:04:58.374Z",
+      "__v": 0
+    }
+  ]
+}
