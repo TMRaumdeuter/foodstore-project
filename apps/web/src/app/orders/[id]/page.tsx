@@ -23,12 +23,12 @@ export default function OrderDetailPage() {
 
     const fetchOrder = async () => {
       try {
-        const data = await api<any>(`/orders/${params.id}`, { token });
+        const data = await api<any>(`/orders/${params.id}`, { token: token ?? undefined });
         setOrder(data);
 
         // Fetch QR Code if transfer
         if (data.paymentMethod === 'qr_transfer' && data.status === 'pending') {
-          const qrData = await api<any[]>('/payments/qr', { token });
+          const qrData = await api<any[]>('/payments/qr', { token: token ?? undefined });
           if (qrData.length > 0) setQrCode(qrData[0]);
         }
       } catch (err) {
@@ -77,7 +77,7 @@ export default function OrderDetailPage() {
     try {
       await api(`/orders/${params.id}/request-cancel`, {
         method: 'POST',
-        token,
+        token: token ?? undefined,
         body: JSON.stringify({ reason: cancelReason })
       });
       setShowCancelModal(false);

@@ -75,7 +75,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refreshUser = async () => {
     if (token) {
-      const updatedUser = await api<User>('/users/me', { token });
+      const updatedUser = await api<User>('/users/me', { token: token ?? undefined });
       setUser(updatedUser);
     }
   };

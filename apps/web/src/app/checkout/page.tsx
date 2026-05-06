@@ -45,14 +45,14 @@ export default function CheckoutPage() {
     }
     
     // Fetch vouchers
-    api<Voucher[]>('/vouchers/active', { token })
+    api<Voucher[]>('/vouchers/active', { token: token ?? undefined })
       .then(data => {
         setVouchers(Array.isArray(data) ? data : []);
       })
       .catch(console.error);
 
     // Fetch active payment QR
-    api<any[]>('/payments/qr', { token })
+    api<any[]>('/payments/qr', { token: token ?? undefined })
       .then(data => {
         if (data && data.length > 0) setQrCode(data[0]);
       })
@@ -115,7 +115,7 @@ export default function CheckoutPage() {
     try {
       const res = await api<{ _id: string }>('/orders', {
         method: 'POST',
-        token: token!,
+        token: token ?? undefined,
         body: JSON.stringify({
           items: formattedItems.map(({ productId, quantity, selectedOptions }) => ({
             productId,

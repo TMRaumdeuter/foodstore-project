@@ -22,7 +22,7 @@ export default function OrdersPage() {
 
   useEffect(() => {
     if (token) {
-      api<{ orders: Order[] }>('/orders/my-orders', { token })
+      api<{ orders: Order[] }>('/orders/my-orders', { token: token ?? undefined })
         .then(res => setOrders(res.orders))
         .catch(console.error)
         .finally(() => setLoading(false));
