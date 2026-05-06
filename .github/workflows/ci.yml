@@ -71,14 +71,18 @@ jobs:
       - name: Install Playwright browsers
         run: npm exec -w apps/web -- playwright install --with-deps chromium
 
+      - name: Build API
+        run: npm run build:api
+
       - name: Start API server
-        run: npm run dev:api &
+        run: node apps/api/dist/main &
         env:
           MONGODB_URI: mongodb://localhost:27017/foodstore_test
           JWT_SECRET: test-secret-key
+          PORT: 4000
 
       - name: Wait for API
-        run: npx wait-on http://localhost:4000/api -t 30000
+        run: npx wait-on http://localhost:4000/api/docs -t 60000
 
       - name: Seed test data
         run: npm run seed -w apps/api
