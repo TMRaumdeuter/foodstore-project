@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { api, getImageUrl } from '@/lib/api';
@@ -27,7 +27,7 @@ interface Category {
   slug: string;
 }
 
-export default function MenuPage() {
+function MenuContent() {
   const searchParams = useSearchParams();
   const initialCat = searchParams.get('category') || '';
   const [categories, setCategories] = useState<Category[]>([]);
@@ -185,5 +185,13 @@ export default function MenuPage() {
         />
       )}
     </div>
+  );
+}
+
+export default function MenuPage() {
+  return (
+    <Suspense fallback={<div className="container" style={{ padding: '40px 0' }}>Đang tải menu...</div>}>
+      <MenuContent />
+    </Suspense>
   );
 }
