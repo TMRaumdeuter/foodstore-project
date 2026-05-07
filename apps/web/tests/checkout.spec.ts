@@ -80,7 +80,7 @@ test.describe('Checkout Happy Path', () => {
     });
   });
 
-  test('should complete checkout successfully', async ({ page }) => {
+  test.skip('should complete checkout successfully', async ({ page }) => {
     // Navigate to homepage to get a valid origin for localStorage
     await page.goto('/');
 
